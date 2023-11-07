@@ -11,7 +11,7 @@ html{
   position: relative;
   text-align: center;
   color: white;
-    max-width: 100%;
+  max-width: 100%;
   max-height: 10%;
 }
 
@@ -87,8 +87,8 @@ p{
 
 header{
   background-color: white;
-  
 }
+
 nav{
   text-align: center;
 }
@@ -127,8 +127,22 @@ li a:hover{
   color: #06ac4e;
   border-color: #06ac4e;
 }
+.projFrame {
+  margin-left:10%;
+  width: 60vw;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+.projects{
+  margin-left:10%;
+  align-self: center;
+  border: 1px solid #000000;
+  width: 60vw;
+  height: 90vh;
+}
 
-#people{
+.people{
   max-width: 60%;  
   display: block;
   margin-left: auto;
@@ -150,6 +164,12 @@ li a:hover{
 #arduino{
   flex-grow: 1;
   width: 20em;
+}
+
+#leds{
+  margin-left: 20%;
+  margin-right: 10%;
+  width: 25%;
 }
 
 #text{
